@@ -1,0 +1,44 @@
+.calci {
+  height: 500px;
+  width: 400px;
+  background-color: aqua;
+  border: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.displayBox {
+  height: 10%;
+  width: 90%;
+  background-color: #fff;
+}
+
+.btnContainer {
+  height: 80%;
+  width: 90%;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: repeat(4, 0.4fr);
+  gap: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: grey;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+button:hover {
+  background-color: darkslategrey;
+}
+
+button:active {
+  background-color: #c0c0c0;
+}
+
+.equal {
+  background-color: forestgreen;
+}
